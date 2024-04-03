@@ -47,5 +47,15 @@
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/load_currency_state"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_load_currency"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
